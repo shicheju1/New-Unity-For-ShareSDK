@@ -193,8 +193,7 @@ public class ShareSDKUtils implements Callback{
 	public String getAuthInfo(int platform) {
 		if (DEBUG) {
 			System.out.println("ShareSDKUtils.getAuthInfo");
-		}
-		
+		}		
 		String name = ShareSDK.platformIdToName(platform);
 		Platform plat = ShareSDK.getPlatform(name);
 		Hashon hashon = new Hashon();
