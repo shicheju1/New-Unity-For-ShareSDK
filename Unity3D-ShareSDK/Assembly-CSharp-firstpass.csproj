@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FAF7DFCA-9C47-D8C5-D7D5-E6F7D395EF75}</ProjectGuid>
+    <ProjectGuid>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -63,16 +63,16 @@
      <Compile Include="Assets\Plugins\ShareSDK\ShareSDKDevInfo.cs" />
      <Compile Include="Assets\Plugins\ShareSDK\ShareSDKImpl.cs" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_strings.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_progressbar.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_platform_cell_back.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_color_drawables.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_selector.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_instapaper_strings.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_default.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_press.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_oks_strings.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AF91AFEF-50DA-E05F-DC30-A26C72E1DE44}</ProjectGuid>
+    <ProjectGuid>{A0590241-EC89-9436-F11D-51760213F2B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -53,16 +53,16 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\ShareSDK\Editor\ShareSDKConfigEditor.cs" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_strings.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_progressbar.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_oks_classic_platform_cell_back.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_oks_color_drawables.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_selector.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_instapaper_strings.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\ShareSDK\res\values\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_default.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\drawable\ssdk_weibo_retry_btn_press.xml" />
-     <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_strings.xml" />
      <None Include="Assets\Plugins\Android\ShareSDK\res\values-en\ssdk_oks_strings.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -133,9 +133,6 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>/Users/youzu/Desktop/Unity3D-ShareSDK/Assets/ShareSDKiOSAutoPackage/Editor/SDKPorter/XCodeEditor/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/youzu/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -151,10 +148,13 @@
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/youzu/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/youzu/Desktop/New Unity Project/Assets/ShareSDKiOSAutoPackage/Editor/SDKPorter/XCodeEditor/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{FAF7DFCA-9C47-D8C5-D7D5-E6F7D395EF75}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
